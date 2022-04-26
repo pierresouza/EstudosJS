@@ -21,19 +21,19 @@ const carro = {
     },
   },
   condutores: [{
-      nome:'Junior',
-      idade:19
-  },{
-      nome:'Ana',
-      idade:42
+    nome: 'Junior',
+    idade: 19
+  }, {
+    nome: 'Ana',
+    idade: 42
   }],
-  calcularValorSeguro: function(){
-      // ...
+  calcularValorSeguro: function () {
+    // ...
   }
 }
 
 carro.proprietario.endereco.numero = 1000
-carro ['proprietario']['endereco']['logradouro'] = 'Av Gigante'
+carro['proprietario']['endereco']['logradouro'] = 'Av Gigante'
 console.log(carro)
 
 delete carro.condutores
