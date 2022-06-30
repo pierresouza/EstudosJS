@@ -5,4 +5,4 @@ function aprovado(nota) {
 }
 
 const resultado = notas.filter(aprovado);
-console.log( resultado);
+console.log(resultado);
